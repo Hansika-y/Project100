@@ -1,0 +1,42 @@
+.copy_right_footer {
+   position: fixed;
+   bottom: 0;
+   width: 100x;
+   text-align: center; 
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+    font-weight: 100;
+}
+
+h4 {
+    font-style: italic;
+}
+
+#camera {
+    width: 500px;
+    height: 400px;
+    border-color: rgba(142, 142, 142, 0.831); 
+}
+
+img{
+    opacity: 0.60;
+}
+
+img:hover{
+    opacity:1.0;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+
+img.custom:hover,
+img.custome:focus{
+    transition: .2s;
+    transform: scale(1.15);
+}
+
